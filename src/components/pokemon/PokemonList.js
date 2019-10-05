@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 import PokemonCard from './PokemonCard';
 
@@ -16,7 +16,7 @@ export default class PokemonList extends Component {
 
     render() {
         return (
-            <React.Fragment>
+            <Fragment>
                 {this.state.pokemon ? (<div className = "row">
                     {this.state.pokemon.map(pokemon => (
                         <PokemonCard
@@ -25,8 +25,8 @@ export default class PokemonList extends Component {
                             key = {pokemon.name}
                         />
                     ))}
-                    </div>) : (<h1>Loading Pokemon</h1>)}
-            </React.Fragment>
+                    </div>) : (<h1>Loading Pokemon!</h1>)}
+            </Fragment>
         )
     }
 }

@@ -165,7 +165,6 @@ export default class Pokemon extends Component {
                                             <div className = "progress-bar" role = "progressBar" style = {{
                                                 width: `${this.state.stats.hp}%`
                                             }}
-                                            aria-valuenow = "25"
                                             aria-valuemin = "0"
                                             aria-valuemax = "100"
                                         ><small>{this.state.stats.hp}</small></div>
@@ -181,7 +180,6 @@ export default class Pokemon extends Component {
                                             <div className = "progress-bar" role = "progressBar" style = {{
                                                 width: `${this.state.stats.attack}%`
                                             }}
-                                            aria-valuenow = "25"
                                             aria-valuemin = "0"
                                             aria-valuemax = "100"
                                         ><small>{this.state.stats.attack}</small></div>
@@ -197,7 +195,6 @@ export default class Pokemon extends Component {
                                             <div className = "progress-bar" role = "progressBar" style = {{
                                                 width: `${this.state.stats.defense}%`
                                             }}
-                                            aria-valuenow = "25"
                                             aria-valuemin = "0"
                                             aria-valuemax = "100"
                                         ><small>{this.state.stats.defense}</small></div>
@@ -213,7 +210,6 @@ export default class Pokemon extends Component {
                                             <div className = "progress-bar" role = "progressBar" style = {{
                                                 width: `${this.state.stats.speed}%`
                                             }}
-                                            aria-valuenow = "25"
                                             aria-valuemin = "0"
                                             aria-valuemax = "100"
                                         ><small>{this.state.stats.speed}</small></div>
@@ -229,7 +225,6 @@ export default class Pokemon extends Component {
                                             <div className = "progress-bar" role = "progressBar" style = {{
                                                 width: `${this.state.stats.specialAttack}%`
                                             }}
-                                            aria-valuenow = "25"
                                             aria-valuemin = "0"
                                             aria-valuemax = "100"
                                         ><small>{this.state.stats.specialAttack}</small></div>
@@ -245,7 +240,6 @@ export default class Pokemon extends Component {
                                             <div className = "progress-bar" role = "progressBar" style = {{
                                                 width: `${this.state.stats.specialDefense}%`
                                             }}
-                                            aria-valuenow = "25"
                                             aria-valuemin = "0"
                                             aria-valuemax = "100"
                                         ><small>{this.state.stats.specialDefense}</small></div>
@@ -301,7 +295,6 @@ export default class Pokemon extends Component {
                                                     width: `${this.state.genderRatioFemale}%`,
                                                     backgroundColor: '#C2185B'
                                                 }}
-                                                aria-valuenow = "15"
                                                 aria-valuemin = "0"
                                                 aria-valuemax = "100"
                                             >
@@ -313,7 +306,6 @@ export default class Pokemon extends Component {
                                                     width: `${this.state.genderRatioMale}%`,
                                                     backgroundColor: '#1976D2'
                                                 }}
-                                                aria-valuenow = "30"
                                                 aria-valuemin = "0"
                                                 aria-valuemax = "100"
                                             >

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-import loader from '../pokemon/giphy.gif';
+import loader from '../pokemon/loader.gif';
 
 const Sprite = styled.img`
     width: 5em;
